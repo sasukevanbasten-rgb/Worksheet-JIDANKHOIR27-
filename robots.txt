@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jidankhoir27.com/sitemap.xml
+# Ganti domain di atas dengan domain asli kamu nanti
+
+# Lynk.id checkout tetap boleh di-crawl
+# Tapi block admin
+Disallow: /admin/
+Disallow: /cart/
