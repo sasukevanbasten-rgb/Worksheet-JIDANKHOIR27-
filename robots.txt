@@ -1,10 +1,9 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jidankhoir27.com/sitemap.xml
-# Ganti domain di atas dengan domain asli kamu nanti
-
-# Lynk.id checkout tetap boleh di-crawl
-# Tapi block admin
+# Block halaman admin / cart internal kalau ada
 Disallow: /admin/
 Disallow: /cart/
+
+# Sitemap utama - JANGAN ganti domain
+Sitemap: https://worksheet-jidankhoir-27.vercel.app/sitemap.xml
